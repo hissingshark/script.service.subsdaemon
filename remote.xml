@@ -1,0 +1,9 @@
+<keymap>
+  <global>
+    <remote>
+      <!-- triggers on/off toggling of subtiles by subsdaemon service -->
+      <green>NotifyAll(hissingshark, subs_toggle)</green>
+    </remote>
+  </global>
+</keymap>
+
