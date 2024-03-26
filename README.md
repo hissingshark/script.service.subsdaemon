@@ -6,8 +6,8 @@
 When subtitles are switched off, it should still display forced subtitles when they are available (hence the name), rather than having to go looking for them every time I start playback.  Switching subtitles on should then display the regular subtitles.
 
 ## Kodi does not seem to work that way:  
-Forced subs display even if subs are technically switched off - fine, but it is necessary to manually select the correct slot.
-Regular subs display when subs are switched on, but only if the correct slot has been manually selected again...
+Forced subs only display if the correct slot has been manually selected.  May display even if subs are switched off, but not always.  
+Regular subs display when subs are switched on, but only if the correct slot has been manually selected again.
 
 ## This service will:  
 - Check for the presence of forced and regular subtitle tracks at the beginning of playback;
