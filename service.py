@@ -15,8 +15,9 @@ class _Monitor(xbmc.Monitor):
 
     def onNotification(self, sender, method, data):
         if sender == 'xbmc':
-            if method == 'Player.OnAVStart':
-            # playback starting
+#            xbmc.log("\nSUBSDAEMON - Sender:%s, Method: %s; Data:%s\n" % (sender, method, data), xbmc.LOGINFO) # debug info
+            if method == 'Player.OnAVStart' and json.loads(data)['item']['type'] != 'song':
+            # playback starting (ignoring music)
                 # reset state
                 self.__init__()
                 # extract player ID from data
