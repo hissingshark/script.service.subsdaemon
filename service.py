@@ -1,4 +1,4 @@
-import json, time, xbmc
+import json, xbmc
 
 class _Monitor(xbmc.Monitor):
     def __init__(self):
